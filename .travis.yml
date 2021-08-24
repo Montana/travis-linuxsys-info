@@ -1,7 +1,6 @@
 ---
 os: focal 
 language: minimal 
-sudo: true
 
 script: 
   - uname
@@ -10,8 +9,7 @@ script:
   - lshw 
   - lshw -short 
   - lshw -html > lshw.html
-  - lspcu
   - lsblk
   - lsblk -a 
-  - dmidecode -t system 
-  - dmidecode -t memory
+  - sudo dmidecode -t system 
+  - sudo dmidecode -t memory
