@@ -18,7 +18,6 @@ script:
   - cat /proc/fb
   - cat /proc/dma
   - cat /proc/cmdline 
-  - cat /proc/console 
   - cat /proc/devices  
   - cat /proc/filesystems  
   - cat /proc/iomem 
@@ -30,8 +29,6 @@ script:
   - cat /proc/modules 
   - cat /proc/mounts 
   - cat /proc/partitions
-  - cat /proc/pci 
   - cat /proc/stat 
-  - cat /proc/swap 
   - cat /proc/uptime 
   - cat /proc/version
