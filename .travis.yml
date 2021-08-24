@@ -13,3 +13,4 @@ script:
   - lsblk -a 
   - sudo dmidecode -t system 
   - sudo dmidecode -t memory
+  - sudo dmidecode -t processor
