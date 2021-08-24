@@ -1,0 +1,16 @@
+---
+os: focal 
+language: minimal 
+
+script: 
+  - uname
+  - uname -r 
+  - uname -m
+  - lshw 
+  - lshw -short 
+  - lshw -html > lshw.html
+  - lspcu
+  - lsblk
+  - lsblk -a 
+  - dmidecode -t system 
+  - dmidecode -t memory
