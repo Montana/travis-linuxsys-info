@@ -15,4 +15,23 @@ script:
   - sudo dmidecode -t memory
   - sudo dmidecode -t processor
   - man 5 /proc/fb
+  - cat /proc/fb
   - cat /proc/dma
+  - cat /proc/cmdline 
+  - cat /proc/console 
+  - cat /proc/devices  
+  - cat /proc/filesystems  
+  - cat /proc/iomem 
+  - cat /proc/ioports  
+  - cat /proc/loadavg 
+  - cat /proc/locks
+  - cat /proc/meminfo 
+  - cat /proc/misc
+  - cat /proc/modules 
+  - cat /proc/mounts 
+  - cat /proc/partitions
+  - cat /proc/pci 
+  - cat /proc/stat 
+  - cat /proc/swap 
+  - cat /proc/uptime 
+  - cat /proc/version
