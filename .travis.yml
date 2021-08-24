@@ -1,6 +1,7 @@
 ---
 os: focal 
 language: minimal 
+sudo: true
 
 script: 
   - uname
